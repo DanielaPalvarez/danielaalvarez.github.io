@@ -31,14 +31,19 @@
 <body class="about-page">
 
   <!-- ======= Header/Navbar ======= -->
-  <header class="header d-flex align-items-center light-background sticky-top" id="header">
+   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
-      <a class="logo d-flex align-items-center me-auto me-xl-0" href="index.html">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <h1 class="sitename">Pamelin</h1>
       </a>
-      <nav class="navmenu" id="navmenu">
+      <div class="d-none d-xl-block">
+        <img src="assets/img/logo.png" alt="Logo" style="height: 40px; float: right;">
+      </div>
+
+      <nav id="navmenu" class="navmenu mx-auto">
         <ul>
-          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="experience.html">Experience</a></li>
           <li class="dropdown">
@@ -57,6 +62,7 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+
     </div>
   </header>
 
