@@ -1421,3 +1421,7 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* Previene scroll horizontal global */
+body {
+  overflow-x: hidden;
+}
