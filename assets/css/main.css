@@ -1446,3 +1446,8 @@ body {
 }
 
 
+.level {
+  font-weight: 600;
+  color: #3b7ddd;
+  margin-left: 10px;
+}
