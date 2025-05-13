@@ -1441,11 +1441,11 @@ body {
   vertical-align: middle;
 }
 
-.progress-bar {
-  width: 0;
+.skills .progress-bar {
   height: 10px;
-  background-color: #3b5bdb; /* azul */
+  background-color: var(--accent-color); /* o #3b5bdb */
   transition: width 1.5s ease;
   border-radius: 4px;
 }
+
 
