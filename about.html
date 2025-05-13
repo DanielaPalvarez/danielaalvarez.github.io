@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>About - Kelly Bootstrap Template</title>
+  <title>About - Daniela Alvarez Portfolio</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -46,7 +46,33 @@
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">Pamelin</h1>
       </a>
-      <div id="navbar"></div>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="experience.html">Services</a></li>
+          <li><a href="case.html">Services</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
     </div>
   </header>
@@ -451,21 +477,4 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-<script>
-  fetch("navbar.html")
-    .then(res => res.text())
-    .then(data => {
-      document.getElementById("navbar").innerHTML = data;
-
-      // Activar clase "active" según URL actual
-      const links = document.querySelectorAll('#navbar a');
-      links.forEach(link => {
-        if (link.href === window.location.href) {
-          link.classList.add('active');
-        }
-      });
-    });
-</script>
-
-
 </html>
