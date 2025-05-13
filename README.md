@@ -29,6 +29,8 @@ This project is deployed using **GitHub Pages**.
 - JavaScript (client-side rendering with `fetch`)
 - Hosted on GitHub Pages
 
----
+## 🧩 Template Credit
 
-Feel free to fork or adapt this portfolio for your own use.
+This portfolio is based on the [Kelly Bootstrap template](https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/) provided by BootstrapMade, customized for personal use.
+
+---
