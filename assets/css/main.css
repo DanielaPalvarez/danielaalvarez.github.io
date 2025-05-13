@@ -1431,3 +1431,10 @@ body {
   margin-right: 20px;
   object-fit: contain;
 }
+
+.skill-icon {
+  max-height: 20px;
+  width: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
