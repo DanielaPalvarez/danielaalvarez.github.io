@@ -1441,11 +1441,4 @@ body {
   vertical-align: middle;
 }
 
-.skills .progress-bar {
-  height: 10px;
-  background-color: var(--accent-color); /* o #3b5bdb */
-  transition: width 1.5s ease;
-  border-radius: 4px;
-}
-
 
