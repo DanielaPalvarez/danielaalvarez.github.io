@@ -1439,3 +1439,11 @@ body {
   vertical-align: middle;
 }
 
+.progress-bar {
+  width: 0;
+  height: 10px;
+  background-color: #3b5bdb; /* azul */
+  transition: width 1.5s ease;
+  border-radius: 4px;
+}
+
