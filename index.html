@@ -1,33 +1,39 @@
+<!-- index.html (About Me) -->
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alan Álvarez | Portafolio</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me - Alan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <h1 class="logo">Alan Álvarez</h1>
-      <ul class="nav-links">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="about.html">Sobre mí</a></li>
-        <li><a href="projects.html">Proyectos</a></li>
-        <li><a href="contact.html">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="case.html">Case of Study</a></li>
+      <li><a href="#contact" class="contact-btn">Contact Me</a></li>
+    </ul>
+  </nav>
 
-  <main>
-    <section class="hero">
-      <h2>Hola, soy Alan 👋</h2>
-      <p>Desarrollador web apasionado por la tecnología y la innovación.</p>
+  <main class="hero">
+    <section class="intro">
+      <h1>Hi, I am <span>Alan</span></h1>
+      <p>Engineer in data science and mathematics</p>
+      <div class="social-icons">
+        <a href="#"><img src="assets/github.svg" alt="GitHub" /></a>
+        <a href="#"><img src="assets/linkedin.svg" alt="LinkedIn" /></a>
+      </div>
+    </section>
+    <section class="profile-pic">
+      <img src="assets/profile-placeholder.jpg" alt="Profile Picture" />
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Alan Álvarez</p>
+  <footer id="contact">
+    <p>Contact me at: your@email.com</p>
   </footer>
 </body>
 </html>
