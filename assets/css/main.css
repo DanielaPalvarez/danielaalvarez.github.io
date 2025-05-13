@@ -1425,3 +1425,9 @@ section,
 body {
   overflow-x: hidden;
 }
+.edu-logo {
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+  object-fit: contain;
+}
