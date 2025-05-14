@@ -1451,3 +1451,11 @@ body {
   color: #3b7ddd;
   margin-left: 10px;
 }
+
+.display-center {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100%;             
+  text-align: center;       
+}
